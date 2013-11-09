@@ -1,0 +1,23 @@
+[$HOME/src/ref/packer/basebox-packer]
+checkout = git clone 'git@github.com:misheska/basebox-packer.git' 'basebox-packer'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/packer/docker]
+checkout = git clone 'git@github.com:dotcloud/docker.git' 'docker'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/packer/puppet-vagrant-boxes]
+checkout = git clone 'git@github.com:puppetlabs/puppet-vagrant-boxes' 'puppet-vagrant-boxes'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/packer/veewee]
+checkout = git clone 'git@github.com:jedi4ever/veewee.git' 'veewee'
+update   = git pull
+status   = git status
+gc       = git gc

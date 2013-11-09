@@ -1,0 +1,35 @@
+[$HOME/src/ref/dotfiles/dircolors-solarized]
+checkout = git clone 'git@github.com:seebi/dircolors-solarized.git' 'dircolors-solarized'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/dotfiles/karlin-mintty-colors-solarized]
+checkout = git clone 'git@github.com:karlin/mintty-colors-solarized.git' 'karlin-mintty-colors-solarized'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/dotfiles/mavnn-mintty-colors-solarized]
+checkout = git clone 'git@github.com:mavnn/mintty-colors-solarized.git' 'mavnn-mintty-colors-solarized'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/dotfiles/solarized]
+checkout = git clone 'git@github.com:altercation/solarized.git' 'solarized'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/dotfiles/tejr-dotfiles]
+checkout = git clone 'git@github.com:tejr/dotfiles.git' 'tejr-dotfiles'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/dotfiles/uggedal-dotfiles]
+checkout = git clone 'git@github.com:uggedal/dotfiles.git' 'uggedal-dotfiles'
+update   = git pull
+status   = git status
+gc       = git gc

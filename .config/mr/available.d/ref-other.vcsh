@@ -1,0 +1,35 @@
+[$HOME/src/ref/other/conda]
+checkout = git clone 'git@github.com:ContinuumIO/conda.git' 'conda'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/other/conda-recipes]
+checkout = git clone 'git@github.com:ContinuumIO/conda-recipes.git' 'conda-recipes'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/other/LodLive]
+checkout = git clone 'git@github.com:dvcama/LodLive.git' 'LodLive'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/other/Mining-the-Social-Web-2nd-Edition]
+checkout = git clone 'git@github.com:ptwobrussell/Mining-the-Social-Web-2nd-Edition' 'Mining-the-Social-Web-2nd-Edition'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/other/pytheas]
+checkout = git clone 'git@github.com:Netflix/pytheas.git' 'pytheas'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/other/karyon]
+checkout = git clone 'git@github.com:Netflix/karyon.git' 'karyon'
+update   = git pull
+status   = git status
+gc       = git gc

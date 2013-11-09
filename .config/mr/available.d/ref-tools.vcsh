@@ -1,0 +1,23 @@
+[$HOME/src/ref/tools/ack2]
+checkout = git clone 'git@github.com:petdance/ack2.git' 'ack2'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/tools/jq]
+checkout = git clone 'git@github.com:stedolan/jq.git' 'jq'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/tools/myrepos]
+checkout = git clone 'git@github.com:joeyh/myrepos.git' 'myrepos'
+update   = git pull
+status   = git status
+gc       = git gc
+
+[$HOME/src/ref/tools/vcsh]
+checkout = git clone 'git@github.com:RichiH/vcsh.git' 'vcsh'
+update   = git pull
+status   = git status
+gc       = git gc

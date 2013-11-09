@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/dotfiles.git]
+checkout = vcsh clone git@github.com:charlesflynn/dotfiles.git dotfiles
+update   = vcsh mr pull
+push     = vcsh mr push
+status   = vcsh mr status
+gc       = vcsh mr gc

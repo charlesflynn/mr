@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/dotlocal.git]
+checkout = vcsh clone git@bitbucket.org:charlesflynn/dotlocal.git dotlocal
+update   = vcsh dotlocal pull
+push     = vcsh dotlocal push
+status   = vcsh dotlocal status
+gc       = vcsh dotlocal gc

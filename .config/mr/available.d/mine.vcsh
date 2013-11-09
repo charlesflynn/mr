@@ -1,0 +1,27 @@
+[$HOME/src/mine/agiledata]
+checkout = git clone 'git@github.com:charlesflynn/agiledata.git' 'agiledata'
+update   = git pull
+push     = git push
+status   = git status
+gc       = git gc
+
+[$HOME/src/mine/animalia-paradoxa/animalia-paradoxa-master]
+checkout = git clone 'git@github.com:charlesflynn/animalia-paradoxa.git' 'animalia-paradoxa-master'
+update   = git pull
+push     = git push
+status   = git status
+gc       = git gc
+
+[$HOME/src/mine/animalia-paradoxa/animalia-paradoxa-web]
+checkout = git clone 'git@github.com:charlesflynn/animalia-paradoxa.git' 'animalia-paradoxa-web'
+update   = git pull
+push     = git push
+status   = git status
+gc       = git gc
+
+[$HOME/src/mine/data-workbench]
+checkout = git clone 'git@github.com:charlesflynn/data-workbench.git' 'data-workbench'
+update   = git pull
+push     = git push
+status   = git status
+gc       = git gc
