@@ -1,8 +1,9 @@
 #!/bin/env bash
 
-mkdir -p $HOME/.local/bin
-export PATH=$HOME/.local/bin:$PATH
-wget --no-check-certificate -O $HOME/.local/bin/vcsh https://bitbucket.org/charlesflynn/mr/raw/master/.local/bin/vcsh && chmod 0755 !#:3
-vcsh clone git@bitbucket.org:charlesflynn/mr.git
-cd; mr update
-vcsh list-tracked | sed 's|^|/|' > ~/.gitignore; cat ~/.gitignore_global >> ~/.gitignore
+curl -L https://github.com/charlesflynn/mr/archive/master.tar.gz | tar xvz --strip 1 -C $HOME
+curl -L https://github.com/charlesflynn/dotfiles/archive/master.tar.gz | tar xvz --strip 1 -C $HOME
+curl -L https://bitbucket.org/charlesflynn/dotlocal/get/master.tar.gz | tar xvz --strip 1 -C $HOME
+rm $HOME/README.md $HOME/LICENSE
+source $HOME/.bash_profile
+mr update
+$HOME/.local/lib/mr/bootconda.sh
