@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 
 PREFIX=$HOME/local
 mkdir -p $HOME/downloads && cd $HOME/downloads
